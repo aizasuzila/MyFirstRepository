@@ -2,5 +2,8 @@ altair
 pandas
 streamlit
 sklearn
-matplotlib
 seaborn
+IPython
+folium
+plotly
+matplotlib
