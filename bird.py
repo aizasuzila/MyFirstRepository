@@ -1,6 +1,5 @@
 import numpy as np
 import pandas as pd
-
 import seaborn as sns
 from IPython.core.pylabtools import figsize
 
@@ -9,13 +8,10 @@ from folium.plugins import HeatMap
 import plotly.express as px
 import seaborn as sns
 
-
 from sklearn.preprocessing import LabelEncoder
-
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.decomposition import PCA
-
 
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.tree import DecisionTreeClassifier
