@@ -9,9 +9,9 @@ from folium.plugins import HeatMap
 import plotly.express as px
 import seaborn as sns
 
-
+## Import LabelEncoder from sklearn
 from sklearn.preprocessing import LabelEncoder
-
+#Calculate by using PCA
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 from sklearn.decomposition import PCA
@@ -38,8 +38,4 @@ data
 
 dcopy=data.copy()
 
-dcopy.shape
-
-dcopy.columns
-
-dcopy.dtypes
+dcopy
